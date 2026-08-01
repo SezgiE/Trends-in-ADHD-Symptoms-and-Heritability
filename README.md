@@ -1,15 +1,25 @@
 # Trends in ADHD Symptom Prevalence and Heritability Estimates Over 30 Years 
 
--Item-level and sum score analyses must be conducted in separate working directories, as output files may have identical names.
+Welcome to the analysis repository for the study named **"Trends in ADHD Symptom Prevalence and Heritability Estimates Over 30 Years."** This repository contains the code required to reproduce the statistical analyses from the study.
 
--Script files are numbered according to their required execution order. Running them out of order may cause errors — please follow the sequence carefully.
+## ⚠️ Important Note on Directory Structure
 
--Read the first lines of each script and correctly set the input and output directories before execution.
+**Item_level** and **Scale_level** analyses must be conducted in entirely **separate working directories**. Output files from both analysis pipelines generate identical filenames, meaning running them in the same folder will overwrite your results.
 
--Ensure all required R libraries are installed.
+## 🚀 Execution Instructions
 
--All analyses were performed in R version 4.4.2 (2024-10-31) — "Pile of Leaves".
+1. **Strict Execution Order:** Script files are numerically prefixed according to their required execution order. You must run them sequentially. Running them out of sequence may cause errors or incorrect outputs.
+2. **Directory Configuration:** Before running any script, open the file and read the first few lines. You must properly configure the input and output directory paths to match your local machine's environment.
 
--This script set was created as part of a first-year internship project in the Research Master’s program Genes in Behavior and Health at Vrije Universiteit Amsterdam.
+## 🛠️ Environment
 
--For further details about the scripts or project, please contact the repository owner.
+- **R Version:** All analyses were written and performed in **R version 4.4.2** (2024-10-31) — *"Pile of Leaves"*. 
+- **Dependencies:** Please ensure all required R libraries listed at the top of the scripts are installed prior to execution. 
+
+## 📬 Contact & Support
+
+For further details regarding the analysis scripts or datasets, please contact the repository owner. 
+
+**Sezgi Ercan**  
+Department of Complex Trait Genetics  
+Vrije Universiteit Amsterdam
